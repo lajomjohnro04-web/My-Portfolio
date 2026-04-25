@@ -1,0 +1,72 @@
+/* GENERAL STYLE */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f6f8;
+    color: #333;
+}
+
+/* PROFILE SECTION */
+.profile {
+    text-align: center;
+    background-color: #2c3e50;
+    color: white;
+    padding: 30px 20px;
+}
+
+/* ✅ 2x2 IMAGE (SQUARE) */
+.profile img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;   /* prevents stretching */
+    border-radius: 0;    /* exact square */
+    border: 3px solid white;
+}
+
+.profile h1 {
+    margin: 10px 0 5px;
+}
+
+.profile .title {
+    font-size: 16px;
+    opacity: 0.8;
+}
+
+/* SECTIONS */
+section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+}
+
+/* HEADINGS */
+h2 {
+    border-bottom: 2px solid #2c3e50;
+    padding-bottom: 5px;
+}
+
+/* TABLE */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 8px;
+}
+
+/* LIST */
+ul {
+    padding-left: 20px;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #2c3e50;
+    color: white;
+    margin-top: 20px;
+}
